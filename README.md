@@ -39,3 +39,7 @@ In the Visual Studio Native Tools command line:
 * d:
 * cd \projects\bin2mif
 * cl bin2mif.c
+
+Pre-built executables included:
+* bin2mif.exe - for Windows
+* bin2mif - Linux (Ubuntu) ELF 32-bit executable (dynamic linking)
