@@ -2,7 +2,7 @@ Binary file (BIN) to Quartus Memory Initialization File (MIF) format conversion 
 
 
 Usage:
-bin2mif bits binaryfile
+bin2mif [silent] bits binaryfile
 
 Example:
 bin2mif 32 rom.bin
@@ -16,7 +16,7 @@ To quickly update FPGA binaries on Windows system using Quartus 13.0sp1 located 
 
 Example (assume that your project located in d:\fpga\MyProject):
 * d:
-* cd \fpga\test
+* cd \fpga\MyProject
 * c:\altera\13.0sp1\quartus\bin64\quartus_cdb MyProject -c Main --update_mif
 * c:\altera\13.0sp1\quartus\bin64\quartus_asm --read_settings_files=on --write_settings_files=off MyProject -c Main
 
