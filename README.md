@@ -32,9 +32,10 @@ To make bin2mif.exe on Windows system in Visual Studio:
 * Open the Native Tools (x86) command line in Visual Studio Start menu group
 * Type cd "\path\to\source\folder" to change working directory
 * Type "cl bin2mif.c"
+
 Example (assume that source located in d:\projects\bin2mif):
 
-Example for Visual Studio Native Tools command line:
+In the Visual Studio Native Tools command line:
 * d:
 * cd \projects\bin2mif
 * cl bin2mif.c
