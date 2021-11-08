@@ -2,7 +2,7 @@ Binary file (BIN) to Quartus Memory Initialization File (MIF) format conversion 
 
 
 Usage:
-bin2mif [silent] <bits> <binaryfile>
+bin2mif [silent] &lt;bits&gt; &lt;binaryfile&gt;
 
 Example:
 bin2mif 32 rom.bin
